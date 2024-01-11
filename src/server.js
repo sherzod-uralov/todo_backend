@@ -16,7 +16,7 @@ const bootStrap = async () => {
         console.log('running database')
 
         const {HOST, PORT} = process.env;
-        app.listen(PORT,HOST,() => {
+        app.listen(PORT,() => {
             console.log(`server running on port ${PORT}`)
         })
     }
